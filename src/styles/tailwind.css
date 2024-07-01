@@ -1,0 +1,15 @@
+.f-center {
+    @apply flex justify-center items-center;
+}
+
+.trans {
+    @apply transition ease-in-out duration-300;
+}
+
+.breadcrumbLayout {
+    @apply shadow-md rounded-md;
+}
+
+.cardLayout {
+    @apply shadow-md rounded-md;
+}

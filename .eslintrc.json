@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/babel",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no-unused-vars": "warn",
+    "import/no-unresolved": "error",
+    "import/named": "error",
+    "import/default": "error",
+    "import/namespace": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  }
+}
